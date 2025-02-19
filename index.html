@@ -1,0 +1,509 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Servicios profesionales de diseño web y desarrollo en Donostia-San Sebastián. Creamos sitios web modernos, responsivos y optimizados para SEO.">
+    <meta name="keywords" content="diseño web, desarrollo web, SEO, marketing digital, Donostia, San Sebastián, Guipúzcoa, País Vasco">
+    <meta name="author" content="WebDonosti">
+    <meta property="og:title" content="WebDonosti - Diseño Web Profesional en San Sebastián">
+    <meta property="og:description" content="Servicios profesionales de diseño web, desarrollo y marketing digital en Donostia-San Sebastián. Soluciones web modernas y efectivas.">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="images/preview.jpg">
+    <meta property="og:url" content="https://webdonosti.com">
+    <meta name="twitter:card" content="summary_large_image">
+    <title>WebDonosti - Diseño Web Profesional en San Sebastián</title>
+
+    <!-- Preload de recursos críticos -->
+    <link rel="preload" href="style.css" as="style">
+    <link rel="preload" href="script.js" as="script">
+    <link rel="preload" href="https://unpkg.com/aos@2.3.1/dist/aos.css" as="style">
+    <link rel="preload" href="https://unpkg.com/aos@2.3.1/dist/aos.js" as="script">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+
+    <!-- Estilos -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Botón Volver Arriba -->
+    <button id="backToTop" class="back-to-top" aria-label="Volver arriba">
+        ↑
+    </button>
+
+    <header>
+        <nav class="navbar">
+            <div class="logo">
+                <a href="/">WebDonosti</a>
+            </div>
+            <div class="burger" id="burger">
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+            </div>
+            <ul class="nav-links" id="nav-links">
+                <li><a href="#servicios">Servicios</a></li>
+                <li><a href="#proceso">Proceso</a></li>
+                <li><a href="#precios">Precios</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="welcome-section">
+        <div class="welcome-text">
+            <h1 class="animate-text">Bienvenido a</h1>
+            <h2 class="animate-text delay-1">Diseño Web & Marketing Digital</h2>
+            <p class="animate-text delay-2">Transformamos tus ideas en experiencias digitales únicas</p>
+        </div>
+    </section>
+
+    <main>
+        <section id="servicios" class="section">
+            <h1 data-aos="fade-down">Servicios</h1>
+            <div class="services">
+                <div class="service" data-aos="zoom-in" data-aos-delay="100">
+                    <h2>Diseño Web</h2>
+                    <p>Creación de sitios web elegantes y funcionales</p>
+                </div>
+                <div class="service" data-aos="zoom-in" data-aos-delay="200">
+                    <h2>SEO</h2>
+                    <p>Optimización para motores de búsqueda</p>
+                </div>
+                <div class="service" data-aos="zoom-in" data-aos-delay="300">
+                    <h2>Marketing Digital</h2>
+                    <p>Estrategias efectivas para tu presencia online</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="estadisticas" class="section stats-section">
+            <div class="stats-container">
+                <div class="stat-item" data-aos="fade-up">
+                    <span class="stat-number" data-target="150">0</span>
+                    <p>Proyectos Completados</p>
+                </div>
+                <div class="stat-item" data-aos="fade-up" data-aos-delay="100">
+                    <span class="stat-number" data-target="98">0</span>
+                    <p>Clientes Satisfechos</p>
+                </div>
+                <div class="stat-item" data-aos="fade-up" data-aos-delay="200">
+                    <span class="stat-number" data-target="5">0</span>
+                    <p>Años de Experiencia</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="tecnologias" class="section">
+            <h1 data-aos="fade-down">Tecnologías</h1>
+            <div class="tech-grid">
+                <div class="tech-item" data-aos="zoom-in" data-aos-delay="100">
+                    <i class="fab fa-html5" loading="lazy"></i>
+                    <h3>HTML5</h3>
+                    <p>Estructura web moderna y semántica</p>
+                </div>
+                <div class="tech-item" data-aos="zoom-in" data-aos-delay="200">
+                    <i class="fab fa-css3-alt" loading="lazy"></i>
+                    <h3>CSS3</h3>
+                    <p>Diseño responsive y animaciones</p>
+                </div>
+                <div class="tech-item" data-aos="zoom-in" data-aos-delay="300">
+                    <i class="fab fa-js" loading="lazy"></i>
+                    <h3>JavaScript</h3>
+                    <p>Interactividad y funcionalidad dinámica</p>
+                </div>
+                <div class="tech-item" data-aos="zoom-in" data-aos-delay="400">
+                    <i class="fab fa-wordpress" loading="lazy"></i>
+                    <h3>WordPress</h3>
+                    <p>CMS líder en gestión de contenidos</p>
+                </div>
+                <div class="tech-item" data-aos="zoom-in" data-aos-delay="500">
+                    <i class="fab fa-react" loading="lazy"></i>
+                    <h3>React</h3>
+                    <p>Desarrollo de apps web modernas</p>
+                </div>
+                <div class="tech-item" data-aos="zoom-in" data-aos-delay="600">
+                    <i class="fab fa-bootstrap" loading="lazy"></i>
+                    <h3>Bootstrap</h3>
+                    <p>Framework CSS para diseño responsive</p>
+                </div>
+                <div class="tech-item" data-aos="zoom-in" data-aos-delay="700">
+                    <i class="fab fa-git-alt" loading="lazy"></i>
+                    <h3>Git</h3>
+                    <p>Control de versiones y colaboración</p>
+                </div>
+                <div class="tech-item" data-aos="zoom-in" data-aos-delay="800">
+                    <i class="fas fa-database" loading="lazy"></i>
+                    <h3>MySQL</h3>
+                    <p>Base de datos relacional</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="proceso" class="section process-section">
+            <h1 data-aos="fade-down">Nuestro Proceso</h1>
+            <div class="timeline">
+                <div class="timeline-item" data-aos="fade-right">
+                    <div class="timeline-content">
+                        <h3>1. Planificación</h3>
+                        <p>Análisis detallado de tus necesidades y objetivos</p>
+                    </div>
+                </div>
+                <div class="timeline-item" data-aos="fade-left">
+                    <div class="timeline-content">
+                        <h3>2. Diseño</h3>
+                        <p>Creación de mockups y prototipos interactivos</p>
+                    </div>
+                </div>
+                <div class="timeline-item" data-aos="fade-right">
+                    <div class="timeline-content">
+                        <h3>3. Desarrollo</h3>
+                        <p>Implementación con las últimas tecnologías</p>
+                    </div>
+                </div>
+                <div class="timeline-item" data-aos="fade-left">
+                    <div class="timeline-content">
+                        <h3>4. Lanzamiento</h3>
+                        <p>Despliegue y optimización final</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="precios" class="section pricing-section">
+            <h1 data-aos="fade-down">Nuestras Tarifas</h1>
+            <div class="pricing-container">
+                <div class="pricing-card" data-aos="fade-up">
+                    <div class="pricing-header">
+                        <h2>Básico</h2>
+                        <div class="price">
+                            <span class="amount">599€</span>
+                            <span class="period">Precio base</span>
+                        </div>
+                    </div>
+                    <div class="pricing-features">
+                        <ul>
+                            <li>Diseño web responsive</li>
+                            <li>Hasta 5 páginas</li>
+                            <li>Formulario de contacto</li>
+                            <li>Optimización básica SEO</li>
+                            <li>Integración con redes sociales</li>
+                            <li>3 meses de mantenimiento</li>
+                        </ul>
+                    </div>
+                    <a href="#contacto" class="pricing-button">Solicitar Información</a>
+                </div>
+
+                <div class="pricing-card featured" data-aos="fade-up" data-aos-delay="100">
+                    <div class="pricing-header">
+                        <h2>Profesional</h2>
+                        <div class="price">
+                            <span class="amount">999€</span>
+                            <span class="period">Más valorado</span>
+                        </div>
+                    </div>
+                    <div class="pricing-features">
+                        <ul>
+                            <li>Todo lo del plan Básico</li>
+                            <li>Hasta 10 páginas</li>
+                            <li>Blog integrado</li>
+                            <li>SEO avanzado</li>
+                            <li>Google Analytics</li>
+                            <li>6 meses de mantenimiento</li>
+                            <li>Hosting primer año incluido</li>
+                            <li>Certificado SSL</li>
+                        </ul>
+                    </div>
+                    <a href="#contacto" class="pricing-button">Solicitar Información</a>
+                </div>
+
+                <div class="pricing-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="pricing-header">
+                        <h2>Empresa</h2>
+                        <div class="price">
+                            <span class="amount">1.499€</span>
+                            <span class="period">Todo incluido</span>
+                        </div>
+                    </div>
+                    <div class="pricing-features">
+                        <ul>
+                            <li>Todo lo del plan Profesional</li>
+                            <li>Páginas ilimitadas</li>
+                            <li>E-commerce (si necesario)</li>
+                            <li>SEO premium</li>
+                            <li>Campañas SEM</li>
+                            <li>12 meses de mantenimiento</li>
+                            <li>Contenido personalizado</li>
+                            <li>Fotografía profesional</li>
+                        </ul>
+                    </div>
+                    <a href="#contacto" class="pricing-button">Solicitar Información</a>
+                </div>
+            </div>
+            <div class="pricing-note" data-aos="fade-up">
+                <p>* Los precios son orientativos y pueden variar según las necesidades específicas del proyecto.</p>
+                <p>* Todos los planes incluyen dominio .eus o .com gratuito el primer año.</p>
+                <p>* Consulta nuestras opciones de financiación para empresas de Guipúzcoa.</p>
+            </div>
+        </section>
+
+        <!-- Sección de Blog -->
+        <section id="blog" class="section blog-section">
+            <h1 data-aos="fade-down">Últimas Publicaciones</h1>
+            <div class="blog-grid">
+                <article class="blog-card" data-aos="fade-up">
+                    <div class="blog-image">
+                        <img src="images/tendencias.webp" alt="Tendencias en diseño web 2025">
+                    </div>
+                    <div class="blog-content">
+                        <h2>Tendencias en diseño web 2025</h2>
+                        <p>Descubre las últimas tendencias en diseño web que dominarán el mercado este año.</p>
+                        <a href="#blog" class="read-more" onclick="mostrarArticulo('tendencias-2025')">Leer más</a>
+                    </div>
+                </article>
+
+                <article class="blog-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="blog-image">
+                        <img src="images/seo_local.webp" alt="SEO Local en San Sebastián">
+                    </div>
+                    <div class="blog-content">
+                        <h2>SEO Local en San Sebastián</h2>
+                        <p>Guía completa para mejorar tu visibilidad en búsquedas locales de Donostia.</p>
+                        <a href="#blog" class="read-more" onclick="mostrarArticulo('seo-local')">Leer más</a>
+                    </div>
+                </article>
+
+                <article class="blog-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="blog-image">
+                        <img src="images/wordpress_balanza.webp" alt="WordPress vs Alternativas">
+                    </div>
+                    <div class="blog-content">
+                        <h2>WordPress vs Alternativas</h2>
+                        <p>Análisis comparativo de las mejores plataformas para tu sitio web.</p>
+                        <a href="#blog" class="read-more" onclick="mostrarArticulo('wordpress-vs-alternativas')">Leer más</a>
+                    </div>
+                </article>
+            </div>
+
+            <!-- Modal para mostrar artículos completos -->
+            <div id="blogModal" class="modal">
+                <div class="modal-content">
+                    <span class="close-modal">&times;</span>
+                    <div id="modalContent"></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Sección FAQ -->
+        <section id="faq" class="section faq-section">
+            <h1 data-aos="fade-down">Preguntas Frecuentes</h1>
+            <div class="faq-container">
+                <div class="faq-item" data-aos="fade-up">
+                    <button class="faq-question">
+                        ¿Cuánto tiempo tarda en desarrollarse un sitio web?
+                        <span class="faq-icon">+</span>
+                    </button>
+                    <div class="faq-answer">
+                        <p>El tiempo de desarrollo varía según la complejidad del proyecto. Un sitio web básico puede estar listo en 2-3 semanas, mientras que proyectos más complejos pueden llevar 2-3 meses. Siempre proporcionamos un cronograma detallado al inicio del proyecto.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item" data-aos="fade-up">
+                    <button class="faq-question">
+                        ¿Qué incluye el mantenimiento mensual?
+                        <span class="faq-icon">+</span>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Nuestro servicio de mantenimiento incluye actualizaciones de seguridad, copias de seguridad regulares, monitoreo de rendimiento, actualizaciones de contenido menores y soporte técnico por email. También incluimos un informe mensual de rendimiento del sitio.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item" data-aos="fade-up">
+                    <button class="faq-question">
+                        ¿Ofrecéis servicios de hosting?
+                        <span class="faq-icon">+</span>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Sí, ofrecemos hosting premium con servidores ubicados en Europa, garantizando velocidad y seguridad óptimas. Todos nuestros planes incluyen certificado SSL, copias de seguridad diarias y soporte técnico.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item" data-aos="fade-up">
+                    <button class="faq-question">
+                        ¿Cómo funciona el proceso de diseño?
+                        <span class="faq-icon">+</span>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Nuestro proceso de diseño es colaborativo. Comenzamos con una consulta detallada, seguido de wireframes y mockups para su aprobación. Realizamos ajustes según sus comentarios antes de proceder con el desarrollo final.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contacto" class="section">
+            <h1 data-aos="fade-down">Contacto</h1>
+            <div class="contact-form" data-aos="fade-up">
+                <form id="contactForm" novalidate>
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="nombre">Nombre</label>
+                            <div class="input-icon">
+                                <input type="text" class="form-control" id="nombre" name="nombre" required>
+                                <i class="fas fa-user"></i>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <div class="input-icon">
+                                <input type="email" class="form-control" id="email" name="email" required>
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="telefono">Teléfono</label>
+                            <div class="input-icon">
+                                <input type="tel" class="form-control" id="telefono" name="telefono">
+                                <i class="fas fa-phone"></i>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="empresa">Empresa</label>
+                            <div class="input-icon">
+                                <input type="text" class="form-control" id="empresa" name="empresa">
+                                <i class="fas fa-building"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-group form-message">
+                        <label for="mensaje">Mensaje</label>
+                        <textarea class="form-control" id="mensaje" name="mensaje" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="form-submit">Enviar Mensaje</button>
+                    <div class="form-feedback"></div>
+                </form>
+            </div>
+        </section>
+
+        <section id="testimonios" class="section testimonials-section">
+            <h1 data-aos="fade-down">Testimonios</h1>
+            <div class="testimonials-container">
+                <div class="testimonial" data-aos="fade-up">
+                    <div class="testimonial-content">
+                        <p>"WebDonosti transformó por completo nuestra presencia online. Su equipo profesional y dedicado entregó exactamente lo que necesitábamos."</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <strong>María García</strong>
+                        <span>Directora de Marketing, TechVasco</span>
+                    </div>
+                </div>
+                <div class="testimonial" data-aos="fade-up" data-aos-delay="100">
+                    <div class="testimonial-content">
+                        <p>"Excelente servicio y atención al cliente. Nuestro sitio web nunca había funcionado mejor."</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <strong>Jon Etxeberria</strong>
+                        <span>Propietario, Restaurante Donosti</span>
+                    </div>
+                </div>
+                <div class="testimonial" data-aos="fade-up" data-aos-delay="200">
+                    <div class="testimonial-content">
+                        <p>"Su conocimiento en SEO local nos ayudó a aumentar significativamente nuestra visibilidad en San Sebastián."</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <strong>Ana Mendizábal</strong>
+                        <span>CEO, Inmobiliaria Gros</span>
+                    </div>
+                </div>
+            </div>
+            <div class="testimonial-controls">
+                <button onclick="previousTestimonial()" class="testimonial-btn prev-btn">&lt;</button>
+                <button onclick="nextTestimonial()" class="testimonial-btn next-btn">&gt;</button>
+            </div>
+        </section>
+    </main>
+
+    <div class="chat-bot">
+        <div class="chat-bot-toggle">
+            <span class="chat-bot-icon">💬</span>
+        </div>
+        <div class="chat-bot-content">
+            <div class="chat-bot-header">
+                <h3>¿Necesitas ayuda?</h3>
+                <span class="close-chat">×</span>
+            </div>
+            <div class="chat-bot-messages">
+                <div class="message bot-message">
+                    ¡Hola! ¿En qué puedo ayudarte hoy?
+                </div>
+            </div>
+            <div class="chat-bot-input">
+                <input type="text" placeholder="Escribe tu mensaje...">
+                <button type="button">Enviar</button>
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>WebDonosti</h3>
+                <p>Diseño web y marketing digital en San Sebastián. Transformamos tu presencia online con soluciones creativas y efectivas.</p>
+                <div class="social-links">
+                    <a href="#" aria-label="Facebook"><i class="fab fa-facebook"></i></a>
+                    <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                    <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                    <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                </div>
+            </div>
+
+            <div class="footer-section">
+                <h3>Enlaces Rápidos</h3>
+                <ul>
+                    <li><a href="#servicios">Servicios</a></li>
+                    <li><a href="#proceso">Proceso</a></li>
+                    <li><a href="#precios">Precios</a></li>
+                    <li><a href="#blog">Blog</a></li>
+                    <li><a href="#faq">FAQ</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-section">
+                <h3>Servicios</h3>
+                <ul>
+                    <li>Diseño Web</li>
+                    <li>Desarrollo Web</li>
+                    <li>SEO</li>
+                    <li>Marketing Digital</li>
+                    <li>Mantenimiento Web</li>
+                </ul>
+            </div>
+
+            <div class="footer-section">
+                <h3>Contacto</h3>
+                <ul class="contact-info">
+                    <li><i class="fas fa-map-marker-alt"></i> San Sebastián, Guipúzcoa</li>
+                    <li><i class="fas fa-phone"></i> +34 XXX XXX XXX</li>
+                    <li><i class="fas fa-envelope"></i> info@webdonosti.com</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <div class="footer-legal">
+                <p>&copy; 2025 WebDonosti. Todos los derechos reservados.</p>
+                <ul>
+                    <li><a href="#privacy">Política de Privacidad</a></li>
+                    <li><a href="#terms">Términos y Condiciones</a></li>
+                    <li><a href="#cookies">Política de Cookies</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js" defer></script>
+    <script src="script.js" defer></script>
+</body>
+</html>
