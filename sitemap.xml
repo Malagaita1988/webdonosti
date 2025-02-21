@@ -3,11 +3,17 @@
   <url>
     <loc>https://webdonosti.com/</loc>
     <lastmod>2025-02-18</lastmod>
-    <changefreq>weekly</changefreq>
+    <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
     <loc>https://webdonosti.com/#servicios</loc>
+    <lastmod>2025-02-18</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://webdonosti.com/#proceso</loc>
     <lastmod>2025-02-18</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
@@ -15,13 +21,31 @@
   <url>
     <loc>https://webdonosti.com/#precios</loc>
     <lastmod>2025-02-18</lastmod>
-    <changefreq>monthly</changefreq>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://webdonosti.com/#blog</loc>
+    <lastmod>2025-02-18</lastmod>
+    <changefreq>weekly</changefreq>
     <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://webdonosti.com/#testimonios</loc>
+    <lastmod>2025-02-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://webdonosti.com/#faq</loc>
+    <lastmod>2025-02-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
   </url>
   <url>
     <loc>https://webdonosti.com/#contacto</loc>
     <lastmod>2025-02-18</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
   </url>
 </urlset>
